@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.example.stark.testmin3d"
+    android:versionCode="20"
+    android:versionName="Feb_27_2010">
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name="org.example.stark.testmin3d.SplashActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="org.example.stark.testmin3d.ExampleRotatingPlanets" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleMostMinimal" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleVertexColors" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleTextures" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleVerticesVariations" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleRenderType" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleCamera" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleMultipleLights" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleAnimatingVertices" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleSubsetOfFaces" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleAssigningTexturesDynamically" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleTextureWrap" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleMipMap" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleMultiTexture" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleTextureOffset" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleFog" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleTransparentGlSurface" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleLoadObjFile" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleLoadObjFileMultiple"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleLoad3DSFile"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleLoadMD2File"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleInsideLayout" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleKeyframeAnimation"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleAccelerometer"></activity>
+
+        <!-- Debugging-related activities: -->
+        <activity android:name="org.example.stark.testmin3d.ScratchActivity" android:label="@string/app_name"></activity>
+        <activity android:name="org.example.stark.testmin3d.ExampleLightProperties" android:label="@string/app_name"></activity>
+
+    </application>
+
+</manifest>
