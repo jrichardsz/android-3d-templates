@@ -1,6 +1,7 @@
 package org.example.stark.testmin3d;
 
 import android.common.ResourceUtils;
+import android.common.UIUtils;
 
 import min3d.core.Object3d;
 import min3d.core.Object3dContainer;
@@ -24,10 +25,15 @@ public class ExampleLoadObjFileMultiple extends RendererActivity
 
 	@Override
 	public void initScene() {
-		
-		IParser parser = Parser.createParser(Parser.Type.OBJ,
-				getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/camaro2_obj", true);
-		parser.parse();
+
+		IParser parser = null;
+
+		try{
+			parser = Parser.createParser(Parser.Type.MAX_3DS,
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/camaro2_obj", true);
+		}catch(Exception ex){
+			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
+		}
 
 		car = parser.getParsedObject();
 		scene.addChild(car);

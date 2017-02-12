@@ -13,7 +13,7 @@ import java.io.File;
 
 public class ResourceUtils {
 
-    public static String getGlobalResourcePackageIdentifier(Context context) {
+    public static String getGlobalResourcePackageIdentifier(Context context) throws Exception {
         String packageName = context.getPackageName();
         PackageManager pm = context.getPackageManager();
         try {
@@ -21,9 +21,8 @@ public class ResourceUtils {
             String apk = ai.dataDir;
             return apk.substring(apk.lastIndexOf(File.separator)+1);
         } catch (Throwable x) {
-            Log.i(ResourceUtils.class.getCanonicalName(),"Failed when try to get global package identifier");
+            throw new Exception("Failed when try to get global package identifier",x);
         }
-        return null;
     }
 
 }

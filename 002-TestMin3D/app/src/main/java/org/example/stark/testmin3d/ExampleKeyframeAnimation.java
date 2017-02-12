@@ -1,6 +1,7 @@
 package org.example.stark.testmin3d;
 
 import android.common.ResourceUtils;
+import android.common.UIUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -55,9 +56,14 @@ public class ExampleKeyframeAnimation extends RendererActivity implements View.O
 	{
 		scene.lights().add(new Light());
 
-		IParser parser = Parser.createParser(Parser.Type.MD2,
-				getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/ogro", false);
-		parser.parse();
+		IParser parser = null;
+
+		try{
+			parser = Parser.createParser(Parser.Type.MAX_3DS,
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/ogro", true);
+		}catch(Exception ex){
+			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
+		}
 
 		ogre = parser.getParsedAnimationObject();
 		ogre.scale().x = ogre.scale().y = ogre.scale().z = .07f;

@@ -1,6 +1,7 @@
 package org.example.stark.testmin3d;
 
 import android.common.ResourceUtils;
+import android.common.UIUtils;
 import android.content.pm.ActivityInfo;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -50,8 +51,15 @@ public class  ExampleAccelerometer extends RendererActivity implements SensorEve
 		mSkyBox.scale().z = 2.0f;
 		scene.addChild(mSkyBox);
 		
-		IParser parser = Parser.createParser(Parser.Type.MAX_3DS,
-				getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", true);
+		IParser parser = null;
+
+		try{
+			parser = Parser.createParser(Parser.Type.MAX_3DS,
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", true);
+		}catch(Exception ex){
+			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
+		}
+
 		parser.parse();
 
 		mMonster = parser.getParsedObject();

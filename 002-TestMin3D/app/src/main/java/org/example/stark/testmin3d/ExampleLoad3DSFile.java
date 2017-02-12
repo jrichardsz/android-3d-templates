@@ -1,6 +1,7 @@
 package org.example.stark.testmin3d;
 
 import android.common.ResourceUtils;
+import android.common.UIUtils;
 
 import min3d.core.Object3dContainer;
 import min3d.core.RendererActivity;
@@ -22,9 +23,14 @@ public class ExampleLoad3DSFile extends RendererActivity {
 		
 		scene.lights().add(new Light());
 
-		IParser parser = Parser.createParser(Parser.Type.MAX_3DS,
-				getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", false);
-		parser.parse();
+		IParser parser = null;
+
+		try{
+			parser = Parser.createParser(Parser.Type.MAX_3DS,
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", true);
+		}catch(Exception ex){
+			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
+		}
 
 		monster = parser.getParsedObject();
 		monster.scale().x = monster.scale().y = monster.scale().z  = .5f;
