@@ -21,11 +21,13 @@ public class ExampleLoadMD2File extends RendererActivity {
 		IParser parser = null;
 
 		try{
-			parser = Parser.createParser(Parser.Type.MAX_3DS,
-					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/ogro", true);
+			parser = Parser.createParser(Parser.Type.MD2,
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/ogro", false);
 		}catch(Exception ex){
 			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
 		}
+
+		parser.parse();
 
 		ogre = parser.getParsedAnimationObject();
 		ogre.scale().x = ogre.scale().y = ogre.scale().z = .07f;

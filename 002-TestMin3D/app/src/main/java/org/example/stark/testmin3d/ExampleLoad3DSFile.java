@@ -27,10 +27,12 @@ public class ExampleLoad3DSFile extends RendererActivity {
 
 		try{
 			parser = Parser.createParser(Parser.Type.MAX_3DS,
-					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", true);
+					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/monster_high", false);
 		}catch(Exception ex){
 			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
 		}
+
+		parser.parse();
 
 		monster = parser.getParsedObject();
 		monster.scale().x = monster.scale().y = monster.scale().z  = .5f;

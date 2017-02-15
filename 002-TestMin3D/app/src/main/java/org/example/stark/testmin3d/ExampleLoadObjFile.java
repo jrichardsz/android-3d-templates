@@ -32,15 +32,18 @@ public class ExampleLoadObjFile extends RendererActivity {
 		IParser parser = null;
 
 		try{
-			parser = Parser.createParser(Parser.Type.MAX_3DS,
+			parser = Parser.createParser(Parser.Type.OBJ,
 					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/camaro_obj", true);
 		}catch(Exception ex){
 			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
 		}
 
+		parser.parse();
+
 		objModel = parser.getParsedObject();
 		objModel.scale().x = objModel.scale().y = objModel.scale().z = .7f;
 		scene.addChild(objModel);
+
 	}
 
 	@Override

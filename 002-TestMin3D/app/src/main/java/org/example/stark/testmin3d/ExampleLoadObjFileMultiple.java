@@ -2,6 +2,7 @@ package org.example.stark.testmin3d;
 
 import android.common.ResourceUtils;
 import android.common.UIUtils;
+import android.util.Log;
 
 import min3d.core.Object3d;
 import min3d.core.Object3dContainer;
@@ -29,11 +30,13 @@ public class ExampleLoadObjFileMultiple extends RendererActivity
 		IParser parser = null;
 
 		try{
-			parser = Parser.createParser(Parser.Type.MAX_3DS,
+			parser = Parser.createParser(Parser.Type.OBJ,
 					getResources(), ResourceUtils.getGlobalResourcePackageIdentifier(this.getBaseContext())+":raw/camaro2_obj", true);
 		}catch(Exception ex){
 			UIUtils.showSimpleErrorDialog(this, "Fatal Error", ex);
 		}
+
+		parser.parse();
 
 		car = parser.getParsedObject();
 		scene.addChild(car);
@@ -72,6 +75,7 @@ public class ExampleLoadObjFileMultiple extends RendererActivity
 		
 		rotationDirection = 1;
 		camDirection = -.01f;
+
 	}
 
 	@Override
