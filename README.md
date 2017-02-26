@@ -16,8 +16,8 @@ Usefull Templates of 3D Android Apps
 
 <img src="002-TestMin3D/home.gif?raw=true" width="150">
 
-# [003-TestMin3D](/003-TestMin3D)
+# [003-TestMin3D-jDebu](/003-TestMin3D-jDebu)
 
 > MIN 3D Example : Short
 
-<img src="003-TestMin3D/home.gif?raw=true" width="150">
+<img src="003-TestMin3D-jDebu/home.gif?raw=true" width="150">
