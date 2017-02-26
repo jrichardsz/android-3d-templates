@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/101/trunk/src/min3d/parser
+END
+ParseObjectData.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/89/trunk/src/min3d/parser/ParseObjectData.java
+END
+Max3DSParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/89/trunk/src/min3d/parser/Max3DSParser.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/68/trunk/src/min3d/parser/Parser.java
+END
+AParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/101/trunk/src/min3d/parser/AParser.java
+END
+MD2Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/93/trunk/src/min3d/parser/MD2Parser.java
+END
+ParseObjectFace.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/44/trunk/src/min3d/parser/ParseObjectFace.java
+END
+LittleEndianDataInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/58/trunk/src/min3d/parser/LittleEndianDataInputStream.java
+END
+IParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/trunk/src/min3d/parser/IParser.java
+END
+ObjParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/89/trunk/src/min3d/parser/ObjParser.java
+END

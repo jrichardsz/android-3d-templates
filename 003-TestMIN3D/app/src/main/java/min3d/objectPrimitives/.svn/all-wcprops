@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/116/trunk/src/min3d/objectPrimitives
+END
+HollowCylinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/114/trunk/src/min3d/objectPrimitives/HollowCylinder.java
+END
+SkyBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/116/trunk/src/min3d/objectPrimitives/SkyBox.java
+END
+Rectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/101/trunk/src/min3d/objectPrimitives/Rectangle.java
+END
+Sphere.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/src/min3d/objectPrimitives/Sphere.java
+END
+Box.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/101/trunk/src/min3d/objectPrimitives/Box.java
+END
+Torus.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/105/trunk/src/min3d/objectPrimitives/Torus.java
+END

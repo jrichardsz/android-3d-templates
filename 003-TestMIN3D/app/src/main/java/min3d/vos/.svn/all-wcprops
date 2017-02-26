@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/112/trunk/src/min3d/vos
+END
+Uv.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/32/trunk/src/min3d/vos/Uv.java
+END
+BooleanManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/79/trunk/src/min3d/vos/BooleanManaged.java
+END
+AbstractDirtyManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/79/trunk/src/min3d/vos/AbstractDirtyManaged.java
+END
+Number3dManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/107/trunk/src/min3d/vos/Number3dManaged.java
+END
+CameraVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/79/trunk/src/min3d/vos/CameraVo.java
+END
+Face.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/trunk/src/min3d/vos/Face.java
+END
+Color4.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/89/trunk/src/min3d/vos/Color4.java
+END
+Vertex3d.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/105/trunk/src/min3d/vos/Vertex3d.java
+END
+ShadeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/79/trunk/src/min3d/vos/ShadeModel.java
+END
+TextureVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/35/trunk/src/min3d/vos/TextureVo.java
+END
+TexEnvxVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/23/trunk/src/min3d/vos/TexEnvxVo.java
+END
+Light.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/112/trunk/src/min3d/vos/Light.java
+END
+LightType.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/112/trunk/src/min3d/vos/LightType.java
+END
+FogType.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/101/trunk/src/min3d/vos/FogType.java
+END
+Number3d.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/77/trunk/src/min3d/vos/Number3d.java
+END
+Color4Managed.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/105/trunk/src/min3d/vos/Color4Managed.java
+END
+RenderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/104/trunk/src/min3d/vos/RenderType.java
+END
+ShadeModelManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/79/trunk/src/min3d/vos/ShadeModelManaged.java
+END
+FrustumManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/79/trunk/src/min3d/vos/FrustumManaged.java
+END
+FloatManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/112/trunk/src/min3d/vos/FloatManaged.java
+END

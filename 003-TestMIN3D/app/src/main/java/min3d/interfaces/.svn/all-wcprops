@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/85/trunk/src/min3d/interfaces
+END
+IDirtyParent.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/79/trunk/src/min3d/interfaces/IDirtyParent.java
+END
+IDirtyManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/79/trunk/src/min3d/interfaces/IDirtyManaged.java
+END
+IObject3dContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/trunk/src/min3d/interfaces/IObject3dContainer.java
+END
+ISceneController.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/85/trunk/src/min3d/interfaces/ISceneController.java
+END

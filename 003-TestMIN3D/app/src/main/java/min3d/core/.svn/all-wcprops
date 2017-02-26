@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/118/trunk/src/min3d/core
+END
+TextureList.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/118/trunk/src/min3d/core/TextureList.java
+END
+Object3d.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/117/trunk/src/min3d/core/Object3d.java
+END
+Scene.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/114/trunk/src/min3d/core/Scene.java
+END
+UvBufferList.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/64/trunk/src/min3d/core/UvBufferList.java
+END
+FacesBufferedList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/105/trunk/src/min3d/core/FacesBufferedList.java
+END
+Object3dContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/112/trunk/src/min3d/core/Object3dContainer.java
+END
+ManagedLightList.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/112/trunk/src/min3d/core/ManagedLightList.java
+END
+RendererActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/118/trunk/src/min3d/core/RendererActivity.java
+END
+Vertices.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/trunk/src/min3d/core/Vertices.java
+END
+Number3dBufferList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/79/trunk/src/min3d/core/Number3dBufferList.java
+END
+Renderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/114/trunk/src/min3d/core/Renderer.java
+END
+RenderCaps.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/77/trunk/src/min3d/core/RenderCaps.java
+END
+Color4BufferList.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/79/trunk/src/min3d/core/Color4BufferList.java
+END
+TextureManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/118/trunk/src/min3d/core/TextureManager.java
+END
