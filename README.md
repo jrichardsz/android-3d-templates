@@ -20,4 +20,6 @@ Usefull Templates of 3D Android Apps
 
 > MIN 3D Example : Short
 
+> By :  [https://github.com/jDebu/DemoShort3D](https://github.com/jDebu/DemoShort3D)
+
 <img src="003-TestMin3D-jDebu/home.gif?raw=true" width="150">
